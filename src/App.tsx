@@ -57,6 +57,7 @@ function App() {
           locale="fr-FR"
           minDetail="year"
           tileContent={handleFillEvents}
+          defaultValue={new Date()}
         />
       </div>
       <div className="resultsContainer">
