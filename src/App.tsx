@@ -49,7 +49,9 @@ function App() {
   return (
     <div className="App">
       <div className="toggle">
-        <button onClick={handleSwitchTheme}>Switch {theme} theme</button>
+        <button onClick={handleSwitchTheme}>
+          Switch {theme === "-dark" ? "to light" : "to dark"} theme
+        </button>
       </div>
       <div className={`calendarContainer theme${theme}`}>
         <Calendar
