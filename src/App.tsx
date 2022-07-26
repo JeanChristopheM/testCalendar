@@ -60,6 +60,7 @@ function App() {
           defaultValue={new Date()}
         />
       </div>
+
       <div className="resultsContainer">
         {rEvents.length !== 0 && (
           <>
